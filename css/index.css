@@ -395,14 +395,46 @@ footer nav {
     footer {
         height: auto;
         padding-top: 2.5vh;
-        font-size: 2rem;
         background-color: #000411;
         display: flex;
         flex-direction: column;
+    }
+
+    footer h3 {
+        font-size: 3rem;
+        color: white;
+        margin: 5%;
     }
 
     nav#footer{
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    nav#footer a {
+        font-size: 4rem;
+    }
+
+    .copyright {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
 }

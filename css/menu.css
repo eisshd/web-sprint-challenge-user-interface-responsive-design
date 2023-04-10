@@ -187,6 +187,8 @@ header {
 
 .menu-section {
     /* border: yellow solid; */
+    width: 32%;
+    margin: 2%;
 }
 
 .margin {
@@ -195,8 +197,7 @@ header {
 
 .menu-items{
     /* border: yellow solid; */
-    /* width: 35%;
-    margin: 2%; */
+    margin: 2%;
 }
 
 .margin {
@@ -217,9 +218,9 @@ header {
 }
 
 .indent {
-    /* border: pink solid; */
+    border: pink solid;
     text-align: left;
-    flex-grow: 2;
+    flex-grow: 8;
 }
 
 
@@ -272,6 +273,8 @@ footer nav {
 
 /* mobile media query */
 @media (max-width: 428px) {
+
+
     html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -381,18 +384,8 @@ time, mark, audio, video {
         
     }
 
-    #Soup_and_Salad.menu-sectionm, #Desserts.menu-section{
-        margin-left: 10%;
-    }
-
-    #Entrees.menu-section {
-        margin-left: 8%
-    }
-
-    #Desserts.menu-section h3 {
-        padding-left: 15%;
-        padding-right: 15%;
-
+    .margin {
+        margin: 0;
     }
 
     /* footer section */
@@ -405,8 +398,9 @@ time, mark, audio, video {
     }
 
     footer h3 {
-        font-size: 4rem;
+        font-size: 3rem;
         color: white;
+        margin: 5%;
     }
 
     nav#footer{

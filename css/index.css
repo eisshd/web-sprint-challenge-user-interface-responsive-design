@@ -401,7 +401,7 @@ footer nav {
         flex-direction: column;
     }
 
-    .f_links{
+    nav#footer{
         display: flex;
         flex-direction: column;
         text-align: center;

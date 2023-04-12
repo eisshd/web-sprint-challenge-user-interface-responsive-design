@@ -176,7 +176,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* border: yellow solid; */
+    border: yellow solid;
 }
 
 .menu h2 {
@@ -187,28 +187,24 @@ header {
 
 .menu-section {
     /* border: yellow solid; */
-    width: 32%;
+    width: 30%;
     margin: 2%;
 }
 
-.margin {
-    margin: auto;
-}
-
-.menu-items{
+.menu-item{
     /* border: yellow solid; */
-    margin: 2%;
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
 }
 
 .margin {
     margin: 5%;
 }
 
-.menu-section div {
-    display: flex;
-    margin-top: 3%;
-    /* border: orange solid; */
-    /* justify-content: space-evenly; */
+.description {
+    margin-left: 0;
+    width: 570px;
 
 }
 
@@ -218,8 +214,7 @@ header {
 }
 
 .indent {
-    border: pink solid;
-    text-align: left;
+    /* border: pink solid; */
     flex-grow: 8;
 }
 
@@ -328,33 +323,18 @@ time, mark, audio, video {
         background-color: #e1efe6;
     }
 
-    .menu h2, h3, h4, p{
-        font-weight: bold;
-        color: #000411
+    .outer {
+        padding-top: 10%;
     }
 
     .menu-container h2{
         padding-top: 16%;
         font-size: 7rem;
         border-bottom: #000411 solid 25px;
-        border-width: 2%;
-    }
+        border-width: 3%;
+        color: #000411;
+        font-weight: bold;
 
-    .menu h3 {
-        margin-top: 10%;
-        font-size: 6.5rem;
-        border: #000411 solid 5px;
-    }
-
-    #Drinks.menu-section h3{
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    .menu-items {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     .menu-section {
@@ -364,24 +344,40 @@ time, mark, audio, video {
         width: 70%;
     }
 
+    .menu-section h3{
+        color: #000411;
+        font-size: 7rem;
+        font-weight: bold;
+        border: #000411 solid 5px;
+        padding: 2%;
+    }
+
+    .menu-section h4 {
+        font-size: 6rem;
+        color: #000411;
+        font-weight: bold;
+    }
+
+    .menu-item {
+        display: flex;
+        flex-direction: column;
+        border-bottom: #000411 solid 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .description {
         text-align: center;
         font-size: 4rem;
         width: inherit;
         padding-bottom: 5%;
-        border-bottom: #000411 solid 5px;
+        color: #000411;
+        font-weight: bold;
+        margin-right: 0;
     }
 
     .description i {
         font-size: inherit;
-    }
-
-    .menu-items h4{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: 5rem;
-        
     }
 
     .margin {
